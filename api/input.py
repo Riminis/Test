@@ -10,7 +10,7 @@ db_config = {
 }
 
 
-with open('data-62743-2024-09-03.json', 'r', encoding='cp1251') as file:
+with open('../data-62743-2024-09-03.json', 'r', encoding='cp1251') as file:
     data = json.load(file)
 
 
