@@ -9,7 +9,7 @@ from .main import *
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
+@app.route('/public', methods=['GET'])
 def handle_post_1():
     response = {
         "message": "Alive"
