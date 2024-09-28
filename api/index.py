@@ -1,8 +1,4 @@
-import json
-import pandas as pd
-from geopy.distance import geodesic
-import psycopg2
-from flask import Flask, request, jsonify
+from api.input import *
 
 
 app = Flask(__name__)
@@ -17,3 +13,5 @@ def handle_post_1():
 
 if __name__ == '__main__':
     app.run(host='localhost', port=4000)
+
+
