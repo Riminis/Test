@@ -1,4 +1,4 @@
-from input import *
+from lyb import *
 
 
 app = Flask(__name__)
