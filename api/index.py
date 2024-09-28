@@ -1,4 +1,4 @@
-from api.input import *
+from input import *
 
 
 app = Flask(__name__)
