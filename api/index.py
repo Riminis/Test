@@ -10,6 +10,5 @@ def handle_post_1():
 
     return jsonify(response), 200
 
-
 if __name__ == '__main__':
-    app.run()
+    app.run(host='localhost', port=4000)
