@@ -2,9 +2,14 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-@app.route('/')
-def home():
-    return jsonify(message="Hello, Vercel!")
+@app.route('/', methods=['GET'])
+def handle_post_1():
+    response = {
+        "message": "Alive"
+    }
+
+    return jsonify(response), 200
+
 
 if __name__ == '__main__':
     app.run()
