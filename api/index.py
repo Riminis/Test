@@ -5,7 +5,7 @@ import psycopg2
 from flask import Flask, request, jsonify
 
 
-from .main import people_in_building
+from .main import *
 
 app = Flask(__name__)
 
